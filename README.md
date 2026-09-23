@@ -1,1 +1,9 @@
-# Lab-6
+This project focuses on **security and privacy in Generative AI**, especially the safe handling of Personally Identifiable Information (PII) in the aviation industry. The main objective is to understand what personal, confidential and sensitive information should not be entered into public AI tools and how such information can be replaced with safe placeholders.
+
+The activity begins by explaining PII, including names, mobile numbers, email addresses, passport numbers, Aadhaar numbers, booking references, payment information, medical information and travel history. Students examine an unsafe aviation prompt containing passenger identity, travel, medical and payment details along with unsupported compensation and baggage-delivery promises. They identify the privacy and accuracy risks associated with each type of information.
+
+The project then introduces **placeholders and data minimisation**. Real or sensitive details are replaced with terms such as `[PASSENGER NAME]`, `[BOOKING REFERENCE]`, `[FLIGHT NUMBER]` and `[VERIFY AIRLINE POLICY]`. Students create a privacy-safe prompt that provides only the information necessary for the task while avoiding sensitive passenger data.
+
+The lab also includes classifying aviation information as public, internal, confidential or restricted, followed by a PII detection challenge involving flight cancellations, special assistance, employee reports and payment complaints. Students rewrite these scenarios into safe prompts and conduct a security and privacy audit before using an AI tool.
+
+Finally, students create their own privacy-safe aviation prompt, complete reflection questions and prepare a GitHub file named `security-and-privacy-audit.md`. The activity reinforces that privacy-safe AI use requires data minimisation, verification, organisational authorisation and human review before important aviation communications are used.
